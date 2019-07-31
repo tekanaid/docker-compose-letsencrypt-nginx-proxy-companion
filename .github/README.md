@@ -1,3 +1,7 @@
+# Sam's Notes
+
+In addition to following the instructions below. Please remember to uncomment `USE_NGINX_CONF_FILES=true` in the `.env` file as mentioned in the `conf.d/uploadsize.conf`. This is what allows nginx to upload larger file sizes. Otherwise, you will get an HTTP error on the wordpress site when you try to upload a larger image or doc in media. 
+
 # Web Proxy using Docker, NGINX and Let's Encrypt
 
 With this repo you will be able to set up your server with multiple sites using a single NGINX proxy to manage your connections, automating your apps container (port 80 and 443) to auto renew your ssl certificates with Let´s Encrypt.
